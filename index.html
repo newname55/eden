@@ -94,7 +94,10 @@
   <section class="hero" id="hero">
     <div class="hero__bg" aria-hidden="true">
       <div class="hero__media">
-        <img src="assets/images/hero.jpg" alt="" class="hero__image" loading="eager" decoding="async">
+        <picture>
+          <source srcset="assets/images/hero.webp" type="image/webp">
+          <img src="assets/images/hero.jpg" alt="" class="hero__image" loading="eager" decoding="async">
+        </picture>
       </div>
       <span class="hero__bloom hero__bloom--gold"></span>
       <span class="hero__bloom hero__bloom--purple"></span>
@@ -110,7 +113,10 @@
           <h1 class="hero__logo">EDEN<span class="hero__logo-sub">&mdash; エデン &mdash;</span></h1>
         </div>
         <div class="hero__mobile-portrait" aria-hidden="true">
-          <img src="assets/images/hero.jpg" alt="" loading="eager" decoding="async">
+          <picture>
+            <source srcset="assets/images/hero.webp" type="image/webp">
+            <img src="assets/images/hero.jpg" alt="" loading="eager" decoding="async">
+          </picture>
           <p class="hero__mobile-catch">足を踏み入れた瞬間、<br>もう戻れない夜へ。</p>
         </div>
       </div>
@@ -190,7 +196,10 @@
       <h2 class="section__title">店内の雰囲気</h2>
       <div class="gallery__grid">
         <div class="gallery__item">
-          <img src="assets/images/hall.jpg" alt="店内のボックス席" loading="lazy" decoding="async">
+          <picture>
+            <source srcset="assets/images/hall.webp" type="image/webp">
+            <img src="assets/images/hall.jpg" alt="店内のボックス席" loading="lazy" decoding="async">
+          </picture>
         </div>
       </div>
     </div>
@@ -276,6 +285,12 @@
       <div class="recruit__cta">
         <a href="tel:090-8124-5834" class="btn btn--primary">求人について問い合わせる</a>
       </div>
+      <a href="https://www.yorucom.com/mshop/63157392/" class="recruit__banner" target="_blank" rel="noopener noreferrer">
+        <picture>
+          <source srcset="assets/images/yorucom_bn.webp" type="image/webp">
+          <img src="assets/images/yorucom_bn.png" alt="夜コムでCLUB EDENの求人をチェック" loading="lazy" decoding="async">
+        </picture>
+      </a>
       <p class="recruit__note"><!-- TODO: 寮・託児所・交通費支給などの詳細条件は店舗側で最終確認 -->※待遇・応募条件は変更になる場合があります。詳細はお問い合わせ時にご確認ください。</p>
     </div>
   </section>
