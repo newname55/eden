@@ -373,8 +373,6 @@ a {
 .hero__bg::after {
   content: "";
   background:
-    linear-gradient(105deg, transparent 0 36%, rgba(245, 219, 157, 0.09) 37%, transparent 42%),
-    repeating-linear-gradient(112deg, transparent 0 86px, rgba(245, 219, 157, 0.045) 88px, transparent 90px),
     radial-gradient(ellipse at 50% 115%, rgba(5, 2, 7, 0.92), transparent 40%);
   mix-blend-mode: screen;
   z-index: 3;
@@ -425,25 +423,6 @@ a {
 
 .hero__mobile-catch {
   display: none;
-}
-
-.hero__chandelier {
-  position: absolute;
-  z-index: 4;
-  top: -76px;
-  right: clamp(12px, 10vw, 160px);
-  width: min(44vw, 520px);
-  height: 280px;
-  opacity: 0.72;
-  background:
-    radial-gradient(ellipse at 50% 12%, rgba(245, 219, 157, 0.7) 0 2px, transparent 4px),
-    radial-gradient(ellipse at 34% 44%, rgba(245, 219, 157, 0.55) 0 3px, transparent 5px),
-    radial-gradient(ellipse at 66% 44%, rgba(245, 219, 157, 0.55) 0 3px, transparent 5px),
-    radial-gradient(ellipse at 20% 74%, rgba(245, 219, 157, 0.45) 0 3px, transparent 5px),
-    radial-gradient(ellipse at 80% 74%, rgba(245, 219, 157, 0.45) 0 3px, transparent 5px),
-    linear-gradient(90deg, transparent 0 12%, rgba(245, 219, 157, 0.22) 13%, transparent 14% 34%, rgba(245, 219, 157, 0.22) 35%, transparent 36% 64%, rgba(245, 219, 157, 0.22) 65%, transparent 66% 86%, rgba(245, 219, 157, 0.22) 87%, transparent 88%),
-    radial-gradient(ellipse at 50% 0%, rgba(245, 219, 157, 0.28), transparent 70%);
-  filter: blur(0.2px);
 }
 
 .hero__bloom {
@@ -820,12 +799,6 @@ a {
     font-size: 0.7rem;
     line-height: 1.6;
     text-align: center;
-  }
-
-  .hero__chandelier {
-    width: 86vw;
-    right: -8vw;
-    opacity: 0.44;
   }
 
   .hero__rose--three {
