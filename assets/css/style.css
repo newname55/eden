@@ -1236,7 +1236,7 @@ a {
 
 .recruit__banner {
   display: block;
-  max-width: 640px;
+  max-width: 420px;
   margin: 0 auto 32px;
   border: 1px solid var(--color-border);
   overflow: hidden;
