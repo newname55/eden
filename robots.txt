@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://clubeden-okayama.com/sitemap.xml
