@@ -22,6 +22,7 @@ rsync -avz --delete \
   --exclude ".claude/" \
   --exclude "README.md" \
   --exclude "CLAUDE.md" \
+  --exclude ".htaccess" \
+  --exclude ".user.ini" \
   ./ "$REMOTE"
-
 echo "EDEN deploy done."
