@@ -47,6 +47,14 @@
 - JSON-LD `NightClub` を更新
 - `robots.txt` / `sitemap.xml` を追加
 
+### Google Analytics
+
+- ストリーム名: `EDEN`
+- ストリームURL: `https://clubeden-okayama.com`
+- ストリームID: `15061284530`
+- 測定ID: `G-1RGDNPPE6M`
+- `index.html` の `<head>` に Google tag を追加
+
 ### 店舗情報反映
 
 夜コム掲載情報を参考に以下を反映。
@@ -90,7 +98,7 @@
 - `reference/brand_sample2.png`
 - `reference/エデンロゴ.pdf`
 
-注意: 現在の `scripts/deploy.sh` は `reference/` や `HANDOFF.md` を除外していない。将来デプロイ時に公開したくない場合は、デプロイ前に除外方針を決めること。
+注意: `docs/` と `reference/` は `scripts/deploy.sh` の除外対象。引き継ぎ資料と参考データはGit管理するが、本番公開対象には含めない方針。
 
 ## 確認済み
 
@@ -113,7 +121,7 @@
 - `sitemap.xml`
 - `reference/`
 - `AGENTS.md`
-- `HANDOFF.md`
+- `docs/HANDOFF.md`
 
 ## デプロイ手順
 

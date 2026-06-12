@@ -20,8 +20,11 @@ rsync -avz --delete \
   --exclude ".env" \
   --exclude ".gitignore" \
   --exclude ".claude/" \
+  --exclude "AGENTS.md" \
   --exclude "README.md" \
   --exclude "CLAUDE.md" \
+  --exclude "docs/" \
+  --exclude "reference/" \
   --exclude ".htaccess" \
   --exclude ".user.ini" \
   ./ "$REMOTE"
