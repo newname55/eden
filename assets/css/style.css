@@ -1243,6 +1243,19 @@ a {
   margin-bottom: 20px;
 }
 
+.recruit__contact-actions {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  max-width: 820px;
+  margin: 0 auto 22px;
+}
+
+.recruit__contact-btn {
+  width: 100%;
+  min-width: 0;
+}
+
 .recruit__manga {
   position: relative;
   display: block;
@@ -1329,6 +1342,10 @@ a {
 
   .recruit__detail div:last-child {
     border-right: none;
+  }
+
+  .recruit__contact-actions {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
