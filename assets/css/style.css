@@ -1234,6 +1234,11 @@ a {
   color: inherit;
 }
 
+.recruit__detail strong a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.12em;
+}
+
 .recruit__cta {
   margin-bottom: 20px;
 }
